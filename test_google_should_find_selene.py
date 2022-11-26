@@ -8,5 +8,5 @@ def test_google(open_browser):
 
 
 def test_google_negative(open_browser):
-    browser.element('[name="q"]').should(be.blank).type('rfrfrgrgrgsddf').press_enter()
-    browser.element('#res').should(have.text('По запросу rfrfrgrgrgsddf ничего не найдено.'))
+    browser.element('[name="q"]').should(be.blank).type('rfrfrg34t345345rgrgsddf').press_enter()
+    browser.element('#res').should(have.text('Your search - rfrfrg34t345345rgrgsddf - did not match any documents.'))
